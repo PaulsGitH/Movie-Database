@@ -1,0 +1,44 @@
+<section class="ui left aligned middle aligned segment">
+
+  <h2>Animelist App Dashboard</h2>
+
+  {{#unless animelists}}
+    <h3 class="ui message">
+      Start adding your animelists!
+    </h3>
+  {{/unless}}
+  <div class="ui centered cards">
+    {{#each animelists}}
+      <div class="ui card">
+        <div class="image">
+          <img src="{{picture}}">
+        </div>
+        <div class="content">
+          <a class="header">{{uppercase title}}</a>
+          <p>
+            <i class="film icon"></i>
+            {{#if movies}}
+              Total movies: {{movies.length}}
+            {{else}}
+              Empty animelist!
+            {{/if}}
+
+            {{#if date}}
+              <br>
+              <i class="calendar alternate outline icon"></i>
+              Created on <i>{{formatDate date}}</i>
+            {{/if}}
+          </p>
+        </div>
+        <div class="extra content">
+          <a href="/animelist/{{id}}" class="ui icon button">
+            <i class="icon folder open"></i>
+          </a>
+          <a href="/dashboard/deleteanimelist/{{id}}" class="ui icon button">
+            <i class="icon trash"></i>
+          </a>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</section>

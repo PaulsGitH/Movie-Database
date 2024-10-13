@@ -1,0 +1,20 @@
+{
+  "info": {
+    "appTitle": "Animelist App",
+    "version": 1.11,
+    "creators": [
+      {
+        "name": "Shinji Ikari",
+        "role": "Web Developer",
+        "description": "An overworked third level student, doing his best to keep his grades up. 'How can I live, laugh, love in these conditions....'."
+      },
+      {
+        "name": "Asuka Soryu Langley",
+        "role": "Consultant",
+        "description":"A conceited but brilliant student, currently on work placement, giving input on design periodically. 'Everyone is going through the same stress in third level, baka Shinji!...'."
+      }
+    ],
+    "location": "SETU, Waterford",
+    "description": "A third level institution, Where the app is currently being developed."
+  } 
+}

@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "firstName": "Shinji",
+      "lastName": "Ikari",
+      "email": "shinji@eva.com",
+      "password": "Password1!",
+      "id": "30985f81-75e6-4f53-9c5b-6812c7012725",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1714140827/eemqdizqhmhaoqgr0h3z.jpg"
+    },
+    {
+      "firstName": "Asuka",
+      "lastName": "Langley",
+      "email": "asuka@eva.com",
+      "password": "Password1!",
+      "id": "0774fedf-8923-4ab0-a2b0-936efb438442",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1714148337/ekyoz6hbsec5xdls0myf.jpg"
+    },
+    {
+      "firstName": "Rei",
+      "lastName": "Ayanami",
+      "email": "rei@eva.com",
+      "password": "Password1!",
+      "id": "1832c95e-57a1-40ff-8625-d7643739c536",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1714149353/m251dylxvzmy6ahezcc9.jpg"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@setu.ie",
+      "password": "try",
+      "id": "5b4f17e0-b39f-4d46-921d-bdf7213fbdd2",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1714554298/gx0b8cdgojzahnrvthlv.png"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@setu.ie",
+      "password": "Trustno1",
+      "id": "5441d85d-3b06-437a-9916-15ccaa221aba",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1715249835/o6h7nmr6yrpgedsc0kho.png"
+    },
+    {
+      "firstName": "nikita",
+      "lastName": "dolan",
+      "email": "nikita.a.dolan@gmail.com",
+      "password": "Whisdode92!",
+      "id": "d6e83cd6-53a7-4837-961f-08fe83200328",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1728830010/do07gtyobcnpvwoulovr.jpg"
+    }
+  ]
+}

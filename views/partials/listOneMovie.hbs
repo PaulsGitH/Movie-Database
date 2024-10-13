@@ -1,0 +1,25 @@
+<tr id="movie{{@index}}">
+  <td>
+    {{capitalise title}}
+  </td>
+  <td>
+    {{capitalise director}}
+  </td>
+  <td>
+    {{release_date}}
+  </td>
+  <td>
+    {{capitalise genre}}
+  </td>
+  <td class="center aligned">
+    <button class="ui icon button" title="Edit anime" id="showEdit{{@index}}">
+    <i class="ui pencil icon"></i>
+    </button>
+  </td>
+  <td class="center aligned">
+    <a href="/animelist/{{animelistId}}/deleteanime/{{id}}" 
+	   class="ui icon button"  title="Delete anime">
+      <i class="ui trash icon"></i>
+    </a>
+  </td>
+</tr>
