@@ -1,4 +1,4 @@
-WEbsite based on creating an account and the creation/maintainance of an extensive movies/tv series based on titles rleases in Japan.
+Website based on the creation of an account and login for the creation/maintainance of an extensive movies/tv series databse list based on titles releases in Japan.
 
 https://assignment-2-final-ver.glitch.me
 
