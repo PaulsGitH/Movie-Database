@@ -1,0 +1,104 @@
+{
+  "animelistCollection": [
+    {
+      "id": "e47ca645-6554-4e72-a47e-8cd919f41ee3",
+      "userid": "30985f81-75e6-4f53-9c5b-6812c7012725",
+      "title": "Romance",
+      "movies": [
+        {
+          "id": "a964126e-6947-4c63-8c89-197c14fccbe6",
+          "title": "Horimiya",
+          "director": "Masashi Ishihama",
+          "release_date": "10/01/21",
+          "genre": "Romance"
+        },
+        {
+          "id": "8e6c6648-f09f-49fa-a7f5-3e86bfa470b3",
+          "title": "Your Name",
+          "director": "Makoto Shinkai",
+          "release_date": "26/08/2016",
+          "genre": "Romance, Fantasy"
+        },
+        {
+          "id": "e7e45fea-b4d9-4cb3-9e32-b609ef71ca30",
+          "title": "His and her circumstances",
+          "director": "Hideaki Anno",
+          "release_date": "02/10/1998",
+          "genre": "Romance"
+        },
+        {
+          "id": "26d11279-286c-475e-8143-f539e03ab083",
+          "title": "My little monster",
+          "director": "Hiro Kaburaki",
+          "release_date": "02/10/2012",
+          "genre": "Romance"
+        }
+      ],
+      "date": "2024-04-26T14:42:42.577Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1714142562/tfclo5eba1ynahkqdq6f.jpg"
+    },
+    {
+      "id": "a2016a2d-0659-4c36-a043-3de78adca928",
+      "userid": "30985f81-75e6-4f53-9c5b-6812c7012725",
+      "title": "Science fiction",
+      "movies": [
+        {
+          "id": "101b4a40-ff51-4904-81bb-e026ed1d6e41",
+          "title": "Neon Genesis Evangelion",
+          "director": "Hideaki Anno",
+          "release_date": "04/10/1995",
+          "genre": "Science Fiction"
+        }
+      ],
+      "date": "2024-04-26T14:45:16.875Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1714142717/iv3l9bcxca9n0e4sn53p.jpg"
+    },
+    {
+      "id": "b62364b7-f952-4b4b-85c3-7f3f0a5cbc3d",
+      "userid": "0774fedf-8923-4ab0-a2b0-936efb438442",
+      "title": "Fantasy",
+      "movies": [
+        {
+          "id": "86eb88ea-aca1-49c5-bb13-b13ef57b0a70",
+          "title": "Zom 100",
+          "director": "Kazuki Kawagoe",
+          "release_date": "09/07/2023",
+          "genre": "Fantasy, Horror"
+        }
+      ],
+      "date": "2024-04-26T20:15:22.167Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1714162522/puwgzqrw4fuiujewekwy.jpg"
+    },
+    {
+      "id": "ba488981-ad86-495f-86c3-34fffac79cb2",
+      "userid": "0774fedf-8923-4ab0-a2b0-936efb438442",
+      "title": "Horror",
+      "movies": [
+        {
+          "id": "d5dacd25-b355-453f-bf9e-78271edc4681",
+          "title": "Perfect Blue",
+          "director": "Satoshi Kon",
+          "release_date": "28/02/1998",
+          "genre": "Horror"
+        },
+        {
+          "id": "010de3b9-9434-4616-9aec-0a82d637427e",
+          "title": "Geno-Cyber",
+          "director": "Koichi Ohata",
+          "release_date": "24/05/1994",
+          "genre": "Horror"
+        }
+      ],
+      "date": "2024-04-26T20:20:19.811Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1714162819/a3w8x82qtah3gbaoudgp.jpg"
+    },
+    {
+      "id": "45cd4131-ac30-4e8a-98fc-c0c9e58a0ede",
+      "userid": "d6e83cd6-53a7-4837-961f-08fe83200328",
+      "title": "kimi no tidoke",
+      "movies": [],
+      "date": "2024-10-13T14:34:22.311Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-pd/image/upload/v1728830062/yriathru7as05tqiehgi.gif"
+    }
+  ]
+}

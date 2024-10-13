@@ -1,0 +1,42 @@
+{{#if movies}}
+
+  <table class="ui striped table">
+    <thead>
+      <tr>
+        <th class="four wide">Title</th>
+        <th class="four wide">Director</th>
+        <th class="four wide">Release Date</th>
+        <th class="four wide">Genre</th>
+        <th> </th>
+        <th> </th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      {{#each movies}}
+      
+        {{> listOneMovie animelistId=../id}}
+        {{> editmovie animelistId=../id}}
+      
+      <script>
+      document.querySelector("#showEdit{{@index}}").addEventListener ('click', () => {
+            document.querySelector("#movie{{@index}}").style.display = "none";
+            document.querySelector("#edit{{@index}}").style.display = "table-row";
+       })
+      document.querySelector("#hideEdit{{@index}}").addEventListener ('click', () => {
+            document.querySelector("#movie{{@index}}").style.display = "table-row";
+            document.querySelector("#edit{{@index}}").style.display = "none";
+       })
+     </script>
+                
+      {{/each}}
+    
+    </tbody>
+  </table>
+
+{{else}}
+  <h3 class="ui message">
+    Empty animelist!
+  </h3>
+
+{{/if}}

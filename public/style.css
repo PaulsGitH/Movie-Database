@@ -1,0 +1,219 @@
+html {
+  box-sizing: border-box;
+  font-size: 18px; /* Increase font size */
+  font-family: monospace; /* Change font to monospace */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: monospace; /* Change font to monospace */
+  margin: 0; /* Remove default margin */
+  font-size: 18px;
+  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+}
+
+.profilepic{
+  padding-top:15px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}
+
+
+.name{
+  padding-top:22.5px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.card {
+  font-family: monospace; /* Change font to monospace */
+}
+
+h1, h2, h3, p {
+  font-family: monospace; /* Change font to monospace */
+}
+
+table.ui.striped.table thead th {
+  color: #39ff14; /* Neon green text color */
+  background-color: #2a005f;
+}
+
+.ui.fixed.striped.table thead tr th {
+  background-color: #2a005f; /* Darker purple background color */
+  color: #39ff14; /* Neon green text color */
+}
+
+.hidden {
+    display: none; /* Hide elements with the hidden class */
+  }
+  
+.ui.grid.container,
+.ui.menu {
+    background-color: #3a0256; /* Lighter purple background color */
+  }
+
+.ui.menu .item {
+    color: #39ff14; /* Neon green text color */
+  }
+
+.ui.grid.container,
+  .ui.menu,
+  .ui.cards .card .content,
+  .ui.segment {
+    background-color: #3a0256; /* Lighter purple background color */
+    color: #39ff14; /* Neon green text color */
+  }
+  
+  .ui.cards .card .content,
+  .ui.cards .card .content .header,
+  .ui.cards .card .content .meta,
+  .ui.cards .card .content .description {
+    color: #39ff14; /* Neon green text color */
+  }
+  
+.ui.statistic .value i.icon,
+.ui.statistic .label {
+  color: #39ff14; /* Neon green text color */
+}
+
+  .ui.five.statistics .value,
+  .ui.five.statistics .label {
+    color: #39ff14; /* Neon green text color */
+  }
+
+
+.hide{
+    display: none;
+}
+
+.ui.striped.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: monospace;
+}
+
+table.ui.striped.table,
+table.ui.striped.table td {
+  font-family: monospace;
+  color: #39ff14;
+}
+
+
+.ui.striped.table tbody tr {
+  background-color: #3a0256;
+}
+
+.ui.message {
+  color: #39ff14;
+  font-family: monospace;
+}
+
+.ui.message.ui.section {
+  background-color: #3a0256;
+  padding: 10px;
+}
+
+.ui.message.ui.section h3.ui.message {
+  color: #39ff14;
+}
+
+h2.ui.header {
+  color: #39ff14;
+  font-family: monospace;
+}
+
+h3.ui.header {
+  color: #39ff14;
+  font-family: monospace;
+}
+
+nav.ui.menu,
+nav.ui.menu a {
+  font-family: monospace;
+  color: #39ff14;
+}
+
+table.ui.striped.table thead {
+  background-color: #2a005f; /* Darker purple background color */
+}
+
+table.ui.striped.table thead tr {
+  background-color: #2a005f; /* Darker purple background color */
+}
+
+
+.ui.stacked.segment.form {
+  font-family: monospace;
+  color: #39ff14;
+}
+
+
+.ui.stacked.segment.form .field {
+  margin-bottom: 1em;
+}
+
+
+.ui.stacked.segment.form label {
+  font-weight: bold;
+}
+
+
+.ui.stacked.segment.form input[type="text"] {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #39ff14;
+  border-radius: 4px;
+  background-color: #3a0256;
+  color: #39ff14;
+}
+
+
+.ui.stacked.segment.form .submit.button {
+  background-color: #39ff14;
+  color: #3a0256;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+.ui.stacked.segment.form .submit.button:hover {
+  background-color: #2a005f;
+}
+
+/* Style the statistics container */
+#statistics {
+  display: flex;
+  justify-content: space-around; /* Evenly distribute items across the container */
+  margin-top: 2em; /* Adjust as needed */
+}
+
+#content {
+  display: flex;
+  justify-content: space-around; /* Evenly distribute items across the container */
+  margin-top: 2em; /* Adjust as needed */
+}
+
+/* Neon green text color for statistics */
+.ui.statistics .value i {
+  color: #39ff14;
+}
+
+/* Center all content */
+.ui.cards,
+.ui.statistic,
+.ui.statistics {
+  margin: 80;
+}
+
+.ui.equal.width.grid .column .ui.statistics .label {
+  color: #39ff14; /* Neon green text color */
+}
+

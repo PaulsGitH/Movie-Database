@@ -1,0 +1,77 @@
+{{> welcomemenu }}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+  Welcome to the Animelist App!
+</h2>
+    <p>
+      This app will allow users to create and maintain a collection of lists based on their favourite Japanese anime/movies.
+    </p>
+  <img src="https://cdn.glitch.global/feb0f64e-efd5-4a46-881d-72030038024a/11664.gif?v=1714162287380" class="ui centered image">
+
+  <p> Sign up or Log in... </p>
+</section>
+
+<section class="ui center aligned middle aligned segment">
+  
+  <h2>About the Animelist App</h2>
+  
+  <div class="ui three column center aligned middle aligned grid">
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="ticket icon"></i> 
+        </div>
+        <div class="label">
+          {{displayNumAnimelists}} genres of anime
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="film icon"></i> 
+        </div>
+        <div class="label">
+          {{displayNumMovies}} movies/series
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="video icon"></i> 
+        </div>
+        <div class="label">
+          {{displayAvgMovies}} movies/series per genre
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="cloud upload icon"></i> 
+        </div>
+        <div class="label">
+          Largest Genre: {{firstName}}'s {{displayLargestAnimelist}}
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="cloud download icon"></i> 
+        </div>
+        <div class="label">
+          Smallest Genre: {{firstName}}'s {{displaySmallestAnimelist}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+

@@ -1,0 +1,109 @@
+{{> menu}} <!-- Including the menu partial -->
+
+<section class="ui grid container"> <!-- Section with Semantic UI grid container -->
+  <div class="ui row"> <!-- Semantic UI row -->
+    <div class="eight wide column"> <!-- Semantic UI column (8/16 width) -->
+      <h2 class="ui header">Welcome to the Animelist App, {{fullname}}!</h2> <!-- Heading -->
+      <p class="introduction hidden"> <!-- Paragraph with hidden class -->
+        This app will allow users to create and maintain a collection of Anime Series/Movies.
+        Developed as part of an assignment for Web app development 1 module and as a result, is a work in progress.
+        <br>
+        <br>
+        The app functions as a modifiable list with a focus on Japanese animated properties,
+        be it a series, a theatrical release, or an Original video animation. Properties from
+        all periods of animation are included, from the 60's black and white animations to
+        more modern series and movies. It's intended to serve as an eventual "encyclopedia"
+        of Japanese animated properties.
+      </p>
+      <div class="ui buttons"> <!-- Semantic UI buttons -->
+        <button id="showMoreBtn" class="ui blue button show-more"><i class="info circle icon"></i> Show More</button> <!-- Blue button for showing more -->
+        <button id="likeBtn" class="ui green button"><i class="thumbs up icon"></i> Like</button> <!-- Green button for liking -->
+        <button id="pokeBtn" class="ui red button"><i class="hand point up icon"></i> Poke</button> <!-- Red button for poking -->
+      </div>
+    </div>
+    <div class="seven wide column"> <!-- Semantic UI column (7/16 width) -->
+      <div class="ui grid"> <!-- Semantic UI grid -->
+        <div class="two column row"> <!-- Semantic UI row with two columns -->
+          <div class="column"> <!-- Semantic UI column -->
+            <img src="https://cdn.glitch.global/03a7b163-6898-4d40-b76d-9b071f01fb96/EOE.jpg?v=1709666883095" class="ui image"> <!-- Image -->
+          </div>
+          <div class="column"> <!-- Semantic UI column -->
+            <img src="https://cdn.glitch.global/03a7b163-6898-4d40-b76d-9b071f01fb96/gits.jpg?v=1709502072209" class="ui image"> <!-- Image -->
+          </div>
+        </div>
+        <div class="two column row"> <!-- Semantic UI row with two columns -->
+          <div class="column"> <!-- Semantic UI column -->
+            <img src="https://cdn.glitch.global/03a7b163-6898-4d40-b76d-9b071f01fb96/Akira.jpg?v=1709667100449" class="ui image"> <!-- Image -->
+          </div>
+          <div class="column"> <!-- Semantic UI column -->
+            <img src="https://cdn.glitch.global/03a7b163-6898-4d40-b76d-9b071f01fb96/suzume.jpg?v=1709666875857" class="ui image"> <!-- Image -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  
+ <section class="ui center aligned middle aligned segment">
+  
+  <h2>About the Animelist App</h2>
+  
+  <div class="ui three column center aligned middle aligned grid">
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="ticket icon"></i> 
+        </div>
+        <div class="label">
+          {{displayNumAnimelists}} genres of anime
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="film icon"></i> 
+        </div>
+        <div class="label">
+          {{displayNumMovies}} movies/series
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="video icon"></i> 
+        </div>
+        <div class="label">
+          {{displayAvgMovies}} movies/series per genre
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="cloud upload icon"></i> 
+        </div>
+        <div class="label">
+          Largest Genre: {{firstName}}'s {{displayLargestAnimelist}}
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="ui statistic">
+        <div class="value">
+          <i class="cloud download icon"></i> 
+        </div>
+        <div class="label">
+          Smallest Genre: {{firstName}}'s {{displaySmallestAnimelist}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

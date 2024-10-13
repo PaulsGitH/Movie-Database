@@ -1,0 +1,11 @@
+{{> menu id="dashboard"}}
+
+{{#with singleAnimelist}}
+  
+    <h2 class="ui header">
+      {{uppercase title}}
+    </h2>
+    {{> listmovies}}
+    {{> addmovie}}
+  
+{{/with}}
