@@ -1,4 +1,4 @@
-# readme-only-starter
+WEbsite based on creating an account and the creation/maintainance of an extensive movies/tv series based on titles rleases in Japan.
 
-This Glitch starter project is empty apart from this README.md file! Update this file after you add some contents.
+https://assignment-2-final-ver.glitch.me
 
